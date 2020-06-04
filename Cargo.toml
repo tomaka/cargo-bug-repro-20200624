@@ -1,0 +1,5 @@
+[workspace]
+members = ["a", "b"]
+
+[profile.dev.package]
+smallvec = { opt-level = 3 }
