@@ -3,6 +3,3 @@ members = ["a", "b"]
 
 [profile.dev.package]
 smallvec = { opt-level = 3 }
-
-[profile.release.package]
-smallvec = { opt-level = 3 }
